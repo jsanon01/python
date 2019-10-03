@@ -1,12 +1,13 @@
 # Class Cat
 
-class Cat:
+class Cat: # defining cat's class and properties
     def __init__(self, name, age, race, owner):
         self.name = name
         self.age = age
         self.race = race
         self.owner = owner
 
+# defining 3 functions aloowing 3 cat's activities
     def sit(self):
         print(f'{my_cat.name} sits down when happy.')
 
@@ -16,10 +17,12 @@ class Cat:
     def hide(self):
         print(f'{my_cat.name} hides in basement when sleepy.')
 
+# instantiation
 my_cat = Cat('Todda', 7,'Persian', 'Sandy') # making instance from class
 
 your_cat = Cat('April',9,'Bata', 'Lauper') # making instance from class
 
+# printing cat's class and properties
 print('--- Here are some characteristics of the Cat ---')
 print(f'My cat name is {my_cat.name}')
 print(f'{my_cat.name} age is {my_cat.age} years old.')
