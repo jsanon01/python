@@ -1,5 +1,6 @@
-# This script print list of cars in reverse order
+# This script prints list of cars in reverse order
 
+print("This script prints 'list of cars' in reverse order")
 cars = ['kia', 'bmw', 'mercedes', 'ford', 'buick', 'nissan', 'toyota' ]
 print()
 print(f'Original list: ', cars)
