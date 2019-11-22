@@ -1,0 +1,12 @@
+# This script is about  a dictionary which prints keys and values
+
+favorite_languages = {
+			'jerry mazouka': 'python',
+			'king kino': 'java',
+			'celestin': 'C #',
+			'roberto martino': 'javascript',
+			'charles baker': 'nodejs'
+			}
+print('----------------------Printing Dict Keys-Values---------------------------')
+for k, v in favorite_languages.items():
+    print(f"{k.title()}'s favorite language is {v.title()}.")
