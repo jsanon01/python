@@ -1,5 +1,7 @@
 # This script prints variables using Format Method
 
+print()
+
 print('This script prints variables using Format Method')
 
 name = 'john doe'
