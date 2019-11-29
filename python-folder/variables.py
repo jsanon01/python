@@ -1,14 +1,23 @@
-# This script prints separately several variables
-# multiple variables are x, y, z (strings)
+# This script prints  multiple variables in one line like x, y, z (strings)
+
+print()
+
+print('This script prints  multiple variables in one line like x, y, z')
 
 x, y, z = 'orange', 'bananas', 'pineapple'
-print(x, y, z)
+
+print(x.title(), y.title(), z.title())
+
 print()
 
 # output variable
+
 x = 'cool'
+
 y = 'awesome'
+
 print(f"Python is {x} and {y}!")
+
 print()
 
 # global variables 
@@ -28,6 +37,7 @@ def myfunction():
     print(f'Python loves {b}')
 
 myfunction()
+
 print()
 
 # using global keyword
@@ -47,3 +57,4 @@ veggies = ['avocados', 'potatoes', 'peanuts', 'carrots']
 for salad in veggies:
     print(f'List of veggies are: {salad.title()}')
 
+print()
