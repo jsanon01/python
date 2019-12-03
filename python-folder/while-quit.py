@@ -3,8 +3,10 @@
 
 message = ''
 
-prompt = 'Please tell me something: '
+prompt = "Please tell me something or 'q': "
 
-while message != 'quit':
+while message != 'q':
+
     message = input(prompt)
-    print(message)
+
+    print(f'You have entered {message.title()}')
