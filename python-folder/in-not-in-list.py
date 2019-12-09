@@ -1,15 +1,23 @@
 # This script prints names found or not fopund in a list
 
+print()
 
-name = input('Enter a name: ')
+print("Because 'Yolene is in the list' script will automatically print out 'Found'")
 
-names = [ 'maguy', 'durce', 'marie', 'yolene', 'filipo']
+print('[ "maguy","yolene", "durce", "marie", "filipo"]')
 
-if 'yolene' in names:
-    print('found')
-else:
-    print('not found')
+names = [ "maguy","yolene", "durce", "marie", "filipo"]
 
+if "yolene" in names:
 
-#if 'dejean' not in names:
- #   print('not found')
+    print('Found')
+
+print()
+
+print("Because 'Dejean is Not in the list' script will automatically print out 'Not found'")
+
+if 'dejean' not in names:
+
+    print('Not found')
+
+print()
