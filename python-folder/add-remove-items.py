@@ -1,4 +1,7 @@
-# Adding and Removing names/items
+# This script is about 'Adding and Removing names/items'
+
+
+print("This script is about 'Adding and Removing names/items'")
 
 names = ['petion', 'bob', 'david', 'alice', 'carolina', 'johny', 'pascal']
 
