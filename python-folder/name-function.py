@@ -2,7 +2,7 @@
 
 print()
 
-print('This script prints out a function,\nThus Local has priority over Global variable') 
+print('This script prints out a function with both variables,\nThus; Local variable has priority over Global variable') 
 
 name = 'dimitri vorbe' # global variable
 
