@@ -13,13 +13,6 @@ while True:
     if item == 'q':
         break
 
-#    elif item.isdigit() and item  > 2:
-#        print('do you want to add more item?: ')
-
-#    else:
-#        print('Added Items: {}'.format(cart))
-
-
     def addItem(item):
 
         cart.append(item)
