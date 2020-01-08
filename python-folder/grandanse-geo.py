@@ -18,22 +18,21 @@ print()
 def dept():
     print('Grand-Anse Dept is located in Southern west side of Haiti.')
 
-#dept()
+
 
 def capital():
     print("\nThe capital of Grand-Anse Dept is Jeremie aka 'The city of Poetry...'")
 
-#capital()    
+    
 
 def cities():
     print("\nThe major cities of Grand-Anse Dept are:\nJeremie\t\tAnse-Dainault\t\tDame-Marie\tLes Irois\nAbricots\tMarfranc\t\tMoron\t\tChambellan\nCorail\t\tPestel\t\t\tBeaumont...")
 
-#cities()
+
 
 def towns():
-    print("\nThe towns are:\nJeremie\t\tLeon\tFond-Cochon...")
+    print("\nThe towns are:\nJeremie\t\tLeon\tFond-Cochon\tNumero-2...")
 
-#towns()
 
 def main():
     dept()
