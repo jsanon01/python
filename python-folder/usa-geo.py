@@ -25,21 +25,22 @@ def capital():
 
 
 def east():
-    print('The East side is facing Atlantic ocean')
+    print('The East side faces Atlantic ocean')
 
 def west():
-        print('The West side is facing Pacific ocean')
+        print('The West side faces Pacific ocean')
 
 def north():
-    print('The North side is facing Canada')
+    print('The North side faces Canada')
 
 
 def south():
-    print('The South side is facing Mexixo and Mediteranean sea.')
+    print('The South side faces Mexixo and Mediteranean sea.')
 
+print('This script not only uses while-statement but also prints out sub-functions in a main loop.\n[0] Quit\t[1] USA\t\t[2] Capital\t[3] East\n[4] West\t[5] North\t[6] South')
 
 def main():
-    x = int(input('Enter input: '))
+    x = int(input('Enter a number from 0 - 6: '))
 
     while x:
 
@@ -57,7 +58,7 @@ def main():
             south()
         else:
             print('Invalid entry...!')
-        x = int(input('Enter input: '))
+        x = int(input('Enter a number from 0 - 6: '))
 
     print('You have exited the scipt...!')
 
