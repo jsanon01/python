@@ -7,35 +7,40 @@ I want a function named 'api_integration'
 I want a function named 'analytics'
 I want a function named 'dev_tool'
 
+I want to print out a menu to display 'main loop function'
+I want a while statement inside the  main function
 """
 
 def compute():
-    print('Lambda lets you run code without provisioning servers.\n- Lamda Edges manages CloudFront.\nFargate is a built-purpose containers.')
+    print('Compute:\n- Lambda lets you run code without provisioning servers.\n- Lamda Edges manages CloudFront.\n- Fargate is a built-purpose containers.')
 
 def storage():
-    print('- S3 provides secure web interface from any web around the world.\- EFS provides simple, and elastic file storage.')
+    print('Storage:\n- S3 provides secure web interface from any web around the world.\n- EFS provides simple, and elastic file storage.')
 
 def data_stores():
-    print('Dynamo DB is no sql.')
+    print('Data Stores:\n- Dynamo DB is no sql.')
 
 def api_proxy():
-    print('API Gateway...')
+    print('API Proxy:\nAPI Gateway...')
     
 def api_integration():
-        print('API Integration...')
+        print('Application Integration:\nAPI Integration...')
 
 def analytics():
-        print('Analytics.....')
+        print('Analytics:\nAnalytics.....')
 
 def dev_tool():
-        print('Dev tool....')
+        print('Developer Tools:\nDev tool....')
 
 
 
 
+print("\nThis script prints out a Menu to display 'Main Loop function.'")
 
 
 def main():
+    print("\nHere are the following AWS 'serverless' services:\n[0] Quit\t[1] Compute\t\t[2] Storage\t[3] Data Stores\n[4] API Proxy\t[5] API Integration\t[6] Analytics\t[7] Dev Tools\n[8] Reference ")
+    print()
     compute()
     print()
     storage()
