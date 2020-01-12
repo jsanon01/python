@@ -7,6 +7,7 @@ I want a function named 'api_proxy'
 I want a function named 'api_integration'
 I want a function named 'analytics'
 I want a function named 'dev_tool'
+I want a function named 'orchestration'
 
 I want to print out a menu to display 'main loop function'
 I want a while statement inside the  main function calling sub-functions
@@ -28,13 +29,16 @@ def api_proxy():
     print('API Proxy:\nAPI Gateway is a fully managed service to create, maintain, publish, monitor, and secure APIs at any scale....')
     
 def api_integration():
-        print('Application Integration:\nAPI Integration...')
+        print('Application Integration:\n- Amazon SNS is a fully managed pub/sub messaging service designing to decouple and scale microservices.\n- Amazon SQS is a fully managed message queuing service designing to decouple and scale microservices.\n- AWS AppSync simplifies application development by creating data from one or more data sources.\n- Amazon EventBridge is a serverless event bus service designing to access application from a variety of sources to your AWS environment.\n...')
 
 def analytics():
-        print('Analytics:\nAnalytics.....')
+        print('Analytics:\n- Amazon Kinesis is a platform for streaming data on AWS.\n- Amazon Athena is an interactice query analyzing data into S3 using standard SQL.')
 
 def dev_tool():
-        print('Developer Tools:\nDev tool....')
+        print('Developer Tools:\n- AWS provides tools and services that aid developers in the serverless application development process.')
+
+def orchestration():
+    print('AWS Step Functions:\n- AWS Step Functions coordinates the components of distributed applications using visual workflows.')
 
 
 
@@ -44,13 +48,12 @@ print("\nThis script prints out a Menu to display 'Main Loop function.'")
 
 def main():
 
-    print("\nHere are the following AWS 'serverless' services:\n[0] Quit\t[1] Compute\t\t[2] Storage\t[3] Data Stores\n[4] API Proxy\t[5] API Integration\t[6] Analytics\t[7] Dev Tools\n[8] Website\n ")
+    print("\nHere are the following AWS 'serverless' services:\n[0] Quit\t\t[1] Compute\t\t[2] Storage\t[3] Data Stores\n[4] API Proxy\t\t[5] API Integration\t[6] Analytics\t[7] Dev Tools\n[8] Orchestration\t[9] Website\n ")
 
-    aws = int(input('Enter a number from 0 - 8: '))
-
+    aws = int(input('Enter a number from 0 - 9: '))
 
     while aws:
-        
+    
         if aws == 1:
             compute()
 
@@ -73,13 +76,14 @@ def main():
             dev_tool()
 
         elif aws == 8:
+            orchestration()
+
+        elif aws == 9:
             webbrowser.open('https://aws.amazon.com/serverless/')
 
         else:
            print('Invalid number.')
-
-        aws = int(input('Enter a number from 0 - 8: '))
-
+        aws = int(input('Enter a number from 0 - 9: '))
 
     print('Exiting the script...!')
 
