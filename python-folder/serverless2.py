@@ -87,7 +87,8 @@ def main():
 
         else:
            print('Invalid number.')
-        aws = int(input('Enter a number from 0 - 9: '))
+        aws = int(input('\nEnter a number from 0 - 9: '))
+
 #        aws = input('Enter a number from 0 - 9: ')
 
     print('Exiting the script...!')
