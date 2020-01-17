@@ -1,10 +1,18 @@
+"""
+I want to create an empty dictionary
+I want to use a while loop statement with the following:
+- input
+- a break statement using if 
+- split the input 
 
+I want to dislay key-value pairs of the dictionary using for-loop
 
-
+"""
 
 class_list = dict()
 
-#data = input('Enter name & age separated by ":" ')
+print('\nThis script prints out names and age separated by ":" ')
+
 while True:
     names = input('Enter names and age separated by ":" : ')
     if names == 'q':
@@ -18,3 +26,4 @@ while True:
     for key, value in class_list.items():
         print('Name: {}\nAge: {}'.format(key, value).title())
 
+print()
