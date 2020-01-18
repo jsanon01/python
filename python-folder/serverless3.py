@@ -1,3 +1,19 @@
+"""
+I want to import website for Reference
+I want a function named 'compute'
+I want a function named 'storage'
+I want a function named 'data_stores'
+I want a function named 'api_proxy'
+I want a function named 'api_integration'
+I want a function named 'analytics'
+I want a function named 'dev_tool'
+I want a function named 'orchestration'
+
+I want to print out a menu to display 'main loop function'
+I want a while statement inside the  main function calling sub-functions
+
+"""
+
 import webbrowser
 
 
