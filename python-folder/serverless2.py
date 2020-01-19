@@ -48,7 +48,7 @@ print("\nThis script prints out a Menu to display 'Main Loop function.'")
 
 def main():
 
-    print("\nHere are the following AWS 'serverless' services:\n[0] Quit\t\t[1] Compute\t\t[2] Storage\t[3] Data Stores\n[4] API Proxy\t\t[5] API Integration\t[6] Analytics\t[7] Dev Tools\n[8] Orchestration\t[9] Website\n ")
+    print("\nHere are the following AWS 'serverless' services:\n[0] Quit\t\t[1] Compute\t\t[2] Storage\t[3] Data Stores\n[4] API Proxy\t\t[5] API Integration\t[6] Analytics\t[7] Dev Tools\n[8] Orchestration\t[9] AWS Website\t\t[10] Google ")
 
 #    aws = input('Enter a number from 0 - 9: ')
     aws = int(input('Enter a number from 0 - 9: '))
@@ -85,11 +85,13 @@ def main():
         elif aws == 9:
             webbrowser.open('https://aws.amazon.com/serverless/')
 
+        elif aws == 10:
+            webbrowser.open('https://google.com')
+
         else:
            print('Invalid number.')
-        aws = int(input('\nEnter a number from 0 - 9: '))
+        aws = int(input('\nEnter a number from 0 - 10: '))
 
-#        aws = input('Enter a number from 0 - 9: ')
 
     print('Exiting the script...!')
 
