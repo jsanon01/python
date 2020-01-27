@@ -1,8 +1,14 @@
+"""
+I want to print import csv
+I want to write in a given file (rtg.txt) by using command 'with open following mode=w' 
+I want to read the file
+
+"""
 import csv
 
-print()
-
 # Script writes 'csv file'
+
+print("\nThis script not only writes into a file named 'rtg.txt' but also reads it.")
 
 with open('rtg.txt', mode='w', newline='') as f:
     writer = csv.writer(f, delimiter=',')
