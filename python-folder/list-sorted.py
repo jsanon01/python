@@ -1,15 +1,19 @@
 """
-I want to print a sorted list
+I want to print a sorted list using 2 methods
 
 """
 
 list = [9,6,3,1,4,8,0]
 
-print('This script prints out a list in ascending order: ')
-print("Original lsitnlist = [9,6,3,1,4,8,0]")
+print('\nThis script sorts a list using 2 different methods: ')
+print("\nOriginal lsit: list = [9,6,3,1,4,8,0]")
  
-print(sorted(list))
-print()
 list.sort()
-print(list)
 
+print("\n1st method is 'list.sort()': {}".format(list))
+
+print()
+
+print(f"\n2nd method is 'sorted(list)': {sorted(list)}")
+
+print()
