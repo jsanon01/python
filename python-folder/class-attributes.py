@@ -2,6 +2,10 @@
 I want to define a class named 'Car'
 I want to define 2 attributes inside 'Car'
 I want to print these attributes
+-----------------------------------------
+I want to define a class named 'Humans'
+I want to define 3 attributes inside 'Huamns'
+I want to print these attributes
 
 """
 
@@ -15,7 +19,7 @@ class Car():
 
 datsun = Car()
 
-print('\nThis Datsun has the following characteristics: {} color and {}'.format(datsun.color, datsun.door)) # accessing object attribute with dot (.) syntax COLLECTIVELY
+print("\nThis Datsun has the following characteristics:\n'{}' color and '{}'".format(datsun.color, datsun.door)) # accessing object attribute with dot (.) syntax COLLECTIVELY
 
 #print('\nThe color of this Datsun is: {}'.format(datsun.color)) # accessing object attribute with dot (.) syntax INDIVIDUALLY
 
@@ -23,14 +27,18 @@ print('\nThis Datsun has the following characteristics: {} color and {}'.format(
 
 print()
 
-"""
+
+print('-------------------------------------------------------------------------')
+
+print("\nThis script prints out 3 attributes of 'class Humans':\nlife, nerves, and eyes.")
+
 class Humans():
-    bio = 'bios = life and logy = study'
-    neuro = 'neuro  = nerves and logy = study'
-    ophtha = 'ophtha  = eyes and logy = study'
+    bio = 'bios\t => means life and logy => study'
+    neu = 'neuro\t => means nerves and logy => study'
+    oph = 'ophtha => means eyes and logy => study'
 
-john = Humans()
+person = Humans()
 
-print(john.bio)
+print('\nHere are some of the Human studies related to Ancient Greek:\n- {}\n- {}\n- {} '.format(person.bio, person.neu, person.oph)) # accessing 3 object attributes with dot (.) syntax COLLECTIVELY
 
-"""
+print()
