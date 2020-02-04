@@ -5,16 +5,14 @@ I want to print them out
 
 """
 class Animals():
-    male = 'lion is the king of animals'
-    female = 'tiger is from bobcat family'
+    male = 'lion is the king of animals..'
+    female = 'tiger is from bobcat family...'
 
 lion = Animals()
 
 tiger = Animals()
 
-#lion.Animals()
-
-print(lion.male)
-
-print(tiger.female)
-
+print('\nHere is few characteristic of Lion:\n{}'.format(lion.male).title())
+print()
+print('Here is few characteristic of Tiger:\n{}'.format(tiger.female).title())
+print()
