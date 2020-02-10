@@ -13,6 +13,8 @@ class Continents():
         self.europe = europe
         self.oceany = oceany
 
-ethiopa = Continents('is in the bible', 'is the new world', 'is in Mesopotania', 'is home of Ancient Greeks', 'is home of borneo')
+ethiopa = Continents('is in the bible', 'is the new world', 'is in Mesopotania', 'is home of Ancient Greeks', 'is home of australia')
 
-print(ethiopa.africa, ethiopa.america, ethiopa.asia, ethiopa.europe, ethiopa.oceany)
+print('\n- Africa {}\n- America {}\n- Asia {}\n- Europe {}\n- Oceany {}'.format(ethiopa.africa.title(), ethiopa.america.title(), ethiopa.asia.title(), ethiopa.europe.title(), ethiopa.oceany.title()))
+
+print()
