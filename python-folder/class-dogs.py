@@ -6,7 +6,7 @@ I want to create 2 instance level attributes
 """
 
 class Dogs: # class dog created
-    species = 'caninie' # global attribute
+    species = "'canine'" # global attribute
     def __init__(self, name, breed):
         self.name = name
         self.breed = breed
@@ -17,8 +17,12 @@ casey = Dogs('Casey','Chocolate Lab')
 
 print('\nHere are the characteristics of the 2 dogs: ')
 
-print('\n{} {}'.format(husky.name, husky.breed))
+print('\n{} is a {}...'.format(husky.name, husky.breed))
 
-print("{} {}".format(casey.name, casey.breed))
+print()
+
+print("{} is a {}...".format(casey.name, casey.breed))
+
+print('\nBoth dogs have {} as their species...'.format(casey.species.title()))
 
 print()
