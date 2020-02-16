@@ -13,6 +13,8 @@ class JKB:
         print("Les habitants de Leon s'appellent: 'Leonnais'")
     def marfranc(self):
         print("Les habitants de Leon s'appellent: 'Marfrancois'")
+    def bonbon(self):
+        print("Les habitants de Leon s'appellent: 'Bonbonnais'")
 
 
 darline = JKB()
@@ -30,5 +32,11 @@ print()
 yvette = JKB()
 
 yvette.marfranc()
+
+print()
+
+yvon = JKB()
+
+yvon.bonbon()
 
 print()
