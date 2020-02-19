@@ -1,10 +1,13 @@
 """
-
+I want to define a class named Dog
+I want to define a setter inside the class named Dog
+I want to define a getter inside the class named Dog
+I want to print out the return value
 
 """
 
 class Dog:
-#    name = 'toussaint pierre'.title()
+
     name = ''
 
     def setName(self, new_name):
@@ -13,11 +16,12 @@ class Dog:
     def getName(self): # returning value of name attribute
         return self.name
 
+print('\nThis script prints out setters and getters from a class.')
+
 sam = Dog()
 
-sam.setName("gregory")
-#sam.setName("paul")
+sam.setName("gregory toussaint")
 
-print(sam.getName().title())
+print('\nTabernacle De Gloire: {}'.format(sam.getName().title()))
 
 print()
