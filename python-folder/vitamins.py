@@ -32,7 +32,7 @@ I want a while loop inside the main function with the following info:
 - vitamin B12 to be called when x = 13
 
 """
-from PIL import Image, ImageFilter
+from PIL import Image
 
 print("\nThis script not only uses a while-statement\nbut also prints out a 'lis of vitamins': ")
 
@@ -80,7 +80,7 @@ def vitamin_B9():
 def vitamin_B12():
     print('Vitamin B12')
 
-#def open_pic():
+
 original = Image.open('vita_pic.png')
 	
 def main():
@@ -115,7 +115,7 @@ def main():
         elif x == 14:
             original.show()
         else:
-            print('you have entered an Invalid number. try again!'.title())
+            print('You have entered an Invalid number. try again!'.title())
         x = int(input('Enter a number from 0 - 13: '))
 
 Vitamins()
@@ -123,3 +123,5 @@ Vitamins()
 main()
 
 print('You have exited the loop...!')
+
+print()
