@@ -21,6 +21,9 @@ vpc = {
 	'ec2	': 'the appliances',
 	'cidr	': 'the street address',
 	}
+print('\nThis script not only prints out key-value pairs of a dictionary\nbut also automatically opens an image...')
+
+print()
 
 for x, y in vpc.items():
     print("- {}\t metaphorically speaking is {}".format(x,y).title())
