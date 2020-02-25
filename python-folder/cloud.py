@@ -2,6 +2,8 @@
 I want to create a dictionary with key-value pairs
 I want to print out these key-value pairs
 
+I want to open an image after running dictionary
+
 """
 from PIL import Image
 
