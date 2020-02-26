@@ -11,6 +11,8 @@ class Dog:
     def makesound(self):
         print('the kitty meows to express something: attention or food.'.title())
 
+print('\nThis script prints out 2 methods from a class named Dog.')
+
 sam = Dog()
 print()
 sam.makingsound()
