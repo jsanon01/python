@@ -6,10 +6,10 @@ I want to call these class methods
 """
 class Dog:
     def makingsound(self):
-        print('the dog barks to communicate with humans.')
+        print('the dog barks to communicate with humans.'.title())
 
     def makesound(self):
-        print('the kitty meows to express something: attention or food.')
+        print('the kitty meows to express something: attention or food.'.title())
 
 sam = Dog()
 print()
