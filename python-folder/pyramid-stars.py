@@ -1,6 +1,6 @@
 """
 I want to print a pyramid of stars by
-- declaring variable
+- declaring variables j=9, j=20, j=30
 - using conditional statement (for loop)
 - decrementing the variable
 
