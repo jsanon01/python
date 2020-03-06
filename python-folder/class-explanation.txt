@@ -1,0 +1,41 @@
+		
+lolo = Dog() # instantiating Dog meaning lolo is an instance of class Dog
+
+lolo.infoAge2() # calling infoAge meaning infoAge is a method of lolo  is a Dogg object 
+
+print(lolo.age) # 
+
+"""
+Dog
+-- characteristic (roperties => variables => data)
+	-- color
+	-- height
+ 	-- four legs	
+ -- Behavior (actions => methods => functions)
+	-- bark
+	-- eat
+	-- sleep(timetosleep)
+	-- getColor()
+
+kousDog(Dog)
+-- characteristics
+ 	-- mins
+-- behaviors
+	-- getDogSize()
+
+
+tipa = Dog()
+dina = Dog()
+pibull = Dog()
+
+greyhound = kousDog()
+greyhound.setColor()
+greyhound.getColor()
+geryound.getDogSize()
+
+
+tina.sleep(3:40)
+dina.sleep(1:00)
+
+
+"""
