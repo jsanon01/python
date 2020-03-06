@@ -1,27 +1,40 @@
 		
-lolo = Dog() # instantiating Dog meaning lolo is an instance of class Dog
+# instantiating Dog meaning lolo is an instance of class Dog
+lolo = Dog() 
 
-lolo.infoAge2() # calling infoAge meaning infoAge is a method of lolo  is a Dogg object 
+# calling infoAge meaning infoAge is a method of lolo  is a Dogg object 
+lolo.infoAge2()  
 
-print(lolo.age) # 
+# printing the class method
+print(lolo.age)
 
-"""
-Dog
--- characteristic (roperties => variables => data)
+
+class Dog:
+
+# Characteristics always delas with Properties or variables
+
+-- characteristic (Properties => variables => data)
 	-- color
 	-- height
  	-- four legs	
+# Behavior always deals with Methods or Functions
+
  -- Behavior (actions => methods => functions)
 	-- bark
 	-- eat
 	-- sleep(timetosleep)
 	-- getColor()
 
+
+# Class calling Class
 kousDog(Dog)
+
 -- characteristics
- 	-- mins
+ 	-- slim
+	-- tall
 -- behaviors
 	-- getDogSize()
+	-- design for race
 
 
 tipa = Dog()
