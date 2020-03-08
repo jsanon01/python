@@ -14,15 +14,15 @@ The main function will have a while statement with the following conditions:
 
 
 def life():
-    print("\nhuman lives don't matter when ignorance exist..")
+    print("\nhuman lives don't matter when ignorance exist..".title())
 
 def ownership():
-    print('\nownership is worthless when lack of information prevails')
+    print('\nownership is worthless when lack of information prevails...'.title())
 
 def speech():
-    print('\nspeech is cheap when unawareness triumph')
+    print('\nspeech is cheap when unawareness triumphs...'.title())
 
-print('\nThis script prints out 3 functions and a main function.')
+print('\nThis script prints out 3 functions and a main function.'.upper())
 
 print('\n[0] Quit\t[1] Life\t[2] Ownership\t[3] Speech')
 
@@ -42,6 +42,6 @@ def main():
 
 main()
 
-print('\nExiting the script')
+print('\nExiting the script...')
 
 print()
