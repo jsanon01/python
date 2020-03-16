@@ -18,70 +18,67 @@ def cloud():
     print("\n'to build effective solutions, architects need an in-depth knowledge of\nthe application and deployment services on AWS.'\n\t\t\t\t\t\tTom Carpenter".upper())
 
 def cost():
-    print('A. designing cost-optimized compute:\n[1] application-deployment services\t[2] Lambda\t[3] API Gateway\n[4] Kinesis\t[5] Kinesis Data Streams & Firehose\t[6] Kinesis Data Analytics\n[7] Reference Architectures '.title())
-    print()
+    print('\nA. designing cost-optimized compute:\n[1] application-deployment services\t[2] Lambda\t[3] API Gateway\n[4] Kinesis\t[5] Kinesis Data Streams & Firehose\t[6] Kinesis Data Analytics\n[7] Reference Architectures '.title())
 
 def operation():
-    print('B. designing for operational excellence:\n[8] cloudfront\t[9] Web Application Firewall\t[10] Simple Queue Service\n[11] Step Functions\t[12] Simple Notification Service [13] Simple Workflow'.title())
-    print()
+    print('\nB. designing for operational excellence:\n[8] cloudfront\t[9] Web Application Firewall\t[10] Simple Queue Service\n[11] Step Functions\t[12] Simple Notification Service [13] Simple Workflow'.title())
 
 def elasticity():
-    print('C. designing for elasticity and scalability:\n[14] opsworks\t[15] elastic map reduce\t\t[16] cloudformation\n[17] cloudwatch\t[18] Trusted advisor\t\t[19] organisations'.title())
-    print()
+    print('\nC. designing for elasticity and scalability:\n[14] opsworks\t[15] elastic map reduce\t\t[16] cloudformation\n[17] cloudwatch\t[18] Trusted advisor\t\t[19] organisations'.title())
 
 def app():
-    print("application deployment is a 'cloud conceptual perspective of the services':\n'how are they used?'\t'why should i use one of them?' ")
+    print("\napplication deployment is a 'cloud conceptual perspective of the services':\n'how are they used?'\t'why should i use one of them?' ")
 
 def lambda_functions():
-    print('lambda is not only a serverless computing service but also scales automatically up to 1,000 requests.')
+    print('\nlambda is not only a serverless computing service but also scales automatically up to 1,000 requests.')
 
 def api():
-    print('api gateway is not only a standard way to accomplish automatic tasks\nbut also is API Management in the cloud.')
+    print('\napi gateway is not only a standard way to accomplish automatic tasks\nbut also is API Management in the cloud.')
 
 def kinesis():
-    print('kds helps to manage incoming data streams, do analysis of it, gets it where you need to go.')
+    print('\nkinesis data streams helps to manage incoming data streams, do analysis of it, gets it where you need to go.')
 
 def kinesis_firehose():
-    print("Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes\ndata stores, and analytics tools.")
+    print("\nKinesis Data Firehose is the easiest way to reliably load streaming data into data lakes\ndata stores, and analytics tools.")
 
 def kda():
-    print('kda is a great powerful tool service to narrow down your search based on standard SQL Queries.')
+    print('\nkinesis data analytics a great powerful tool service to narrow down your search based on standard SQL Queries.')
 
 def reference():
-    print('refernce architectures is a well-architected framework for specific solution complying with a set of requirements.')
+    print('\nrefernce architectures is a well-architected framework for specific solution complying with a set of requirements.')
 
 def cloudfront():
-    print('cloudfront is a fast, highly secure and programmable service for static and dynamic contents. ')
+    print('\ncloudfront is a fast, highly secure and programmable service for static and dynamic contents. ')
 
 def waf():
-    print("web application firewall (WAF) uses extra level of security for 'public-facing' and 'web applications.'")
+    print("\nweb application firewall (WAF) uses extra level of security for 'public-facing' and 'web applications.'")
 
 def sqs():
-    print('Simple Queue Service is implemented to allow decoupling applications.\nMessages are queued and processed asynchronously meaning out of order.')
+    print('\nSimple Queue Service is implemented to allow decoupling applications.\nMessages are queued and processed asynchronously meaning out of order.')
 
 def step():
-    print('AWS recommends Step Functions practice as replacement of Simple WorkFlow ')
+    print('\nAWS recommends Step Functions practice as replacement of Simple WorkFlow ')
 
 def sns():
-    print("Simple Notification Service is like 'messaging or paging in the cloud.'\nSNS uses 'pub-sub model' meaning publish-subscriber model ")
+    print("\nSimple Notification Service is like 'messaging or paging in the cloud.'\nSNS uses 'pub-sub model' meaning publish-subscriber model ")
 
 def swf():
-    print('Simple WokFlow not only is a decoupled application service nut also\ndefines the sequence of events required to achieve a workflow.')
+    print('\nSimple WokFlow not only is a decoupled application service nut also\ndefines the sequence of events required to achieve a workflow.')
 
 def ops():
-    print('OpsWorks is the configuration management solution in AWS')
+    print('\nOpsWorks is the configuration management solution in AWS')
 
 def emr():
-    print("Elastic Map Reduce uses 'Master Nodes for distributors,''Core Nodes for process and storage,''Task Nodes for the work'")
+    print("\nElastic Map Reduce uses 'Master Nodes for distributors,''Core Nodes for process and storage,''Task Nodes for the work'")
 
 def cloudformation():
-    print('CloudFormation is the key for deployment of multiple instances to form a complete solution.')
+    print('\nCloudFormation is the key for deployment of multiple instances to form a complete solution.')
 
 def cloudwatch():
-    print('CloudWatch monitors the cloud and on-premises, logs data out to build dashboards,\nsends SNS and SMS alarms for launching or restarting instances.')
+    print('\nCloudWatch monitors the cloud and on-premises, logs data out to build dashboards,\nsends SNS and SMS alarms for launching or restarting instances.')
 
 def trusted():
-    print("trusted advisor is your trusting and trusty friend in the cloud.\n'improving security'\t'improving performance'\t'reducing cost'\n'improving fault tolerance'")
+    print("\ntrusted advisor is your trusting and trusty friend in the cloud.\n'improving security'\t'improving performance'\t'reducing cost'\n'improving fault tolerance'")
 
 def organizations():
     print('\nAWS Organizations is a collection of AWS accounts at No additional charge for use.')
@@ -93,7 +90,7 @@ def main():
     operation()
     elasticity()
 
-    x = int(input('Enter a number from 0 - 20: '))
+    x = int(input('\nEnter a number from 0 - 20: '))
     while x:
         if x == 1:
             app()
@@ -134,9 +131,11 @@ def main():
         elif x == 19:
             organizations()
         else:
-            print('Invalid number!')
-        x = int(input('Enter a number from 0 - 20: '))
+            print('\nInvalid number!')
+        x = int(input('\nEnter a number from 0 - 20: '))
 
-    print('You have exited the script...!')
+    print('\nYou have exited the script...!')
 
 main()
+
+print()
