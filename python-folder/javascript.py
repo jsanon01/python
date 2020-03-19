@@ -1,5 +1,7 @@
 """
-
+I want to define a class named Javascript
+I want to define a method named front-end
+I want to define a method named back-end
 
 """
 class Javascript:
