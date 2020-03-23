@@ -23,10 +23,12 @@ class Shark:
 piskette = Shark('piskette', 9)
 
 # printing out 2 instance varaibles
-print('the object: piskette = passes the parameters --> {} and {}'.format(piskette.name, piskette.age))
+print('\nthe object: piskette = passes the parameters --> {} and {}'.format(piskette.name, piskette.age))
 
 # Instantiating meaning assigning sou_fort as instance
-sou_fort = Shark('kiki', 4)
+sou_fort = Shark("'La Pointe'",250)
 
 # printing out 2 instance variables
-print(sou_fort.name, sou_fort.age)
+print('\nthe object: sou_fort = passes the parameters --> {} and {}'.format(sou_fort.name, sou_fort.age))
+
+print()
