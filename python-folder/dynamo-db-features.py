@@ -1,4 +1,5 @@
 """
+I want to print out a menu for the functions mentioned below...
 I want to define a function named serverless
 I want to define a function named highly_available
 I want to define a function named horizontal_scaling
@@ -22,36 +23,38 @@ I want to define a main function with a while statement:
 - to call global_tables when x = 9
 		
 """
+print('\n[0] Quit\t[1] Serverless\t\t[2] Availability\t[3] Scaling')
+print('[4] No SQL\t[5] DynamDB Streams\t[6] DAX\t\t\t[7] Transactions\n[8] Backup\t[9] Global Tables')
 
 def serverless():
-    print('fully managed, fault tolerant service')
+    print('\nDynamoDB is fully managed, fault tolerant service.')
 
 def ha():
-    print('99.99% of SLA availability and 99.999% for Global Tables')
+    print('\nDynamoDB is 99.99% of SLA availability and 99.999% for Global Tables.')
 
 def horizontal():
-    print('Auto Scaling and seamless scalability to any scale with push button scaling.')
+    print('\nDynsmoDB uses Auto Scaling and seamless scalability to any scale with push button scaling.')
 
 def no_sql():
-    print('flexible schema, suitable for unstructured and unpredictable data')
+    print('\nDynamoDB is a flexible schema, suitable for unstructured and unpredictable data.')
 
 def streams():
-    print('captures a time-ordered sequence of item-level modifications up to 24 hours')
+    print('\nDynamoDB captures a time-ordered sequence of item-level modifications up to 24 hours.')
 
 def dax():
-    print('fully managed in-memory cache that increases performamce in microseconds.')
+    print('\nDynamoDB is a fully managed in-memory cache that increases performamce in microseconds.')
 
 def transactions():
-    print('strongly or eventually consistent reads supporting ACID transactions')
+    print('\nDynamDB uses strongly or eventually consistent reads supporting ACID transactions.')
 
 def backup():
-    print('dynamoDB can be used for on-demand backup and restor\npoin-in-time recovery down to the second in last 35 days. ')
+    print('\nDynamoDB can be used for on-demand backup and restor\npoin-in-time recovery down to the second in last 35 days. ')
 
 def global_tables():
-    print('fully managed multi-region, multi-master solution')
+    print('\nDynamoDB is a fully managed multi-region, multi-master solution.')
 
 def main():
-    x = int(input('Enter a number from 0 - 9: '))
+    x = int(input('\nEnter a number from 0 - 9: '))
     while x:
         if x == 1:
             serverless()
@@ -72,9 +75,11 @@ def main():
         elif x == 9:
             global_tables()
         else:
-            print('Invalid number...')
-        x = int(input('Enter a number from 0 - 9: '))
+            print('\nInvalid number...')
+        x = int(input('\nEnter a number from 0 - 9: '))
 
-    print('You have exited the script!')
+    print('\nYou have exited the script!')
 
 main()
+
+print()
