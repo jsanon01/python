@@ -1,6 +1,6 @@
 """
 I want to define a class named 'Car'
-I want to define 2 attributes inside 'Car'
+I want to define 2 class attributes inside the class 'Car'
 I want to print these attributes
 -----------------------------------------
 I want to define a class named 'Humans'
@@ -9,7 +9,7 @@ I want to print these attributes
 
 """
 
-print("\nThis script prints out 2 attributes of 'class Car': color and sound.")
+print("\nThis script prints out 2 class attributes of 'class Car': color and sound.")
 
 class Car():
 
