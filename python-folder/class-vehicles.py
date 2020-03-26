@@ -1,5 +1,9 @@
 """
-
+I want to define a class named Vehicle
+I want to define a class variable named 'name'
+I want to define a class variable named 'kind'
+I want to define a class variable named 'color'
+I want to define a class variable named 'value'
 
 """
 
