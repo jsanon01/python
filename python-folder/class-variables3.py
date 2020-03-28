@@ -9,7 +9,6 @@ I want to print out the instance variable named sammy
 https://www.digitalocean.com/community/tutorials/understanding-class-and-instance-variables-in-python-3
 """
 
-#print(Here is )
 # defining a class 
 class Shark:
 
@@ -26,10 +25,12 @@ def main():
 
     # 1st object, instance variable of constructor method
     sammy = Shark('sammy',6)
-    jeremie = Shark('piskette', 24)
+    jeremie = Shark('piskettes', 24)
 
     # printing out intance variable
-    print('{} is {} year-old.'.format(sammy.name.upper(), sammy.age))
-    print('{} come out around August {} of each year.'.format(jeremie.name.upper(), jeremie.age))
+    print('\n{} is {} year-old.'.format(sammy.name.upper(), sammy.age))
+    print('\n{} come out around August {}th of each year.'.format(jeremie.name.upper(), jeremie.age))
 
 main()
+
+print()
