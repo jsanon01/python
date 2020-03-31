@@ -10,28 +10,32 @@ I want to instantiate emp1 and emp2 within the class Emplyee
 class Employee:
     empCount = 0
 
-    def __init__(self, name, salary):
+    def __init__(self, name,fname, position, salary):
         self.name = name
+        self.fname = fname
+        self.position = position
         self.salary = salary
         Employee.empCount += 1
 
     def displayCount(self):
-        print('total employee is: {} '.format(employee.empCount))
+        print('\ntotal employee is: {} '.format(employee.empCount))
 
     def displayEmployee(self):
-#        print('{} {} '.format(self.fname, self.salary))
-        print('Name: {}\t Salary: ${}'.format(self.name, self.salary))
+        print('Name: {} {}\t {}\t Salary: ${}'.format(self.name, self.fname, self.position, self.salary))
 
-emp1 = Employee('yanick joseph',1200)
+print()
+emp1 = Employee('yanick'.title(),'joseph'.upper(), 'secretary'.title(), 1200)
 
-emp2 = Employee('pedro poto', 8500)
+emp2 = Employee('pedro'.title(),'poto'.upper(), 'president'.title(), 10500)
+
+emp3 = Employee('busta'.title(),'john'.upper(), 'manager'.title(), 8500)
 
 emp1.displayEmployee()
+print()
 emp2.displayEmployee()
+print()
+emp3.displayEmployee()
+print()
+print('Total employee is: {} '.format(Employee.empCount))
 
-#print(emp1.name, emp1.salary)
-
-#print(emp2.name, emp2.salary)
-
-print('total employee is: {} '.format(Employee.empCount))
-
+print()
