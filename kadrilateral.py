@@ -1,5 +1,9 @@
 """
-I want to define a class named kadriateral
+I want to define a class named quadriateral
+I want to define __init__ function with the values: a, b, c, and d
+I want to define a function inside the class named perimeter
+I want to instantiate an object named roro with tne class 'quadrilateral'
+I want to print the object named roro
 
 """
 perimeter = ''
