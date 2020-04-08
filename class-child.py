@@ -1,5 +1,11 @@
 """
-
+I want to define a class named Person
+I want to define a custom constructor method with the following values:
+- name, phone, address
+I want to define a function named updateContact
+I want to instantiate the object named ana (aka instance variable)
+I want to define a sub-class named Customer
+I want to define instance variable named sonson
 
 """
 
@@ -23,19 +29,11 @@ class Customer(Person):
 sonson = Customer('patrick joseph'.title(), '202-147-9875', '196 eugene margron, jeremie'.title())
 sonson.updateContact()
 
-#sonson.customer_id()
-#print(sonson)
+joel = Customer('joel auguste'.title(), '305-949-7446', '510 NE 163 St, Miami, FL 33042')
 
+joel.updateContact()
 
-
-
-
-
-
-
-
-
-#sophie = Person('sophia martelly'.title(), '305-451-9630', '38 Maple St, Queens, NY 10935')
-#sophie.updateContact()
+sophie = Person('sophia martelly'.title(), '305-451-9630', '38 Maple St, Queens, NY 10935')
+sophie.updateContact()
 
 print()
