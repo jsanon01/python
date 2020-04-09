@@ -14,7 +14,7 @@ class Person:
         self.address = input('Enter address: ').title()
 
     def info(self):
-        print('\nFirst name: {}\tLast name: {}\tPhone: {}\tAddress: {}'.format(self.fname, self.lname, self.phone, self.address))
+        print('\nFirst name: {}\nLast name: {}\nPhone: {}\nAddress: {}'.format(self.fname, self.lname, self.phone, self.address))
 
 ana = Person()
 ana.info()
