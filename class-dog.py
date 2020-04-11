@@ -1,5 +1,15 @@
-# This script is about Dog Class
+"""
+I want to define a class named Dog
+I want to define a custom constructor method withthe following properties
+- name, age, color, race
+I want to define function named sit
+I want to define function named roll_over
+I want to define function named bark
+I want to instantiate my_dog as object
+I want to print the activities of the Dog
+"""
 
+print('\nThis script is about a class named Dog')
 
 class Dog: # defining dog class
     # defining dog properties
