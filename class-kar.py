@@ -1,4 +1,13 @@
+"""
+I want to define a class named Car
+I want to construct __init__ method
+I want to initialize 3 properties or attributes
+- name, model, and year
+I want to print out descriptive info about the car
+I want to create a method named mileage
+I want to create instance variables
 
+"""
 # a simple attempt to represent a car
 class Car:
 
