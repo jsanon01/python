@@ -1,5 +1,7 @@
 """
-
+I want to define a function named db()
+I want to define another function named partition()
+I want to print out both functions
 
 """
 
@@ -22,4 +24,5 @@ def partition():
     print('facility 1\tfacility 2\tfacility 3'.title())
 
 partition()
+
 print()
