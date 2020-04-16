@@ -1,4 +1,11 @@
 """
+I want to define a function named type()
+I want to define a function named soap()
+I want to define a function named rest()
+I want to define a function named client()
+I want to define a function named server()
+I want to define a main function
+
 https://www.youtube.com/watch?v=B3-BEY7Mv_8
 https://www.upwork.com/search/profiles/?nbs=1&q=cloud&profile=~0107cd83ec37495694
 
