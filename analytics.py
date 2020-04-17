@@ -37,16 +37,16 @@ print('\n[11] descriptive [21] diagnostic\t[31] predictive\t[41] prescriptive'.t
 
 
 def descriptive():
-    print("\nDescriptive Analytic...is based on REPORTS & ALERTS.\n\nDescriptive Analytic deals with 'What happened?'")
+    print("\nDescriptive Analytic...is based on REPORTS & ALERTS.\n\nDescriptive Analytic deals with ... 'What happened?'")
    
 def diagnostic():
-    print("\nDiagnostic Analytic...is based on QUERIES & DATA MINING.\n\nDiagnostic Analytic deals with 'Why did it happen?'")
+    print("\nDiagnostic Analytic...is based on QUERIES & DATA MINING.\n\nDiagnostic Analytic deals with ... 'Why did it happen?'")
 
 def predictive():
-    print("\nPredictive Analytic...is based on FORECAST & SIMULATIONS.\n\nPredictive Analytic deals with 'What is likely to happen?'")
+    print("\nPredictive Analytic...is based on FORECAST & SIMULATIONS.\n\nPredictive Analytic deals with ... 'What is likely to happen?'")
 
 def prescriptive():
-    print("\nPrescriptive Analytic...is based on PLANNING & OPTIMIZATION.\n\nPrescriptive Analytic deals with nWhat can we do to make it happen?'")
+    print("\nPrescriptive Analytic...is based on PLANNING & OPTIMIZATION.\n\nPrescriptive Analytic deals with ... 'What can we do to make it happen?'")
 
 def basic():
     print('\n-------- basic statistics --------\n- mean\t- median\t- variance\n- coun\t- top-n\t\t- distinct'.title())
@@ -55,7 +55,7 @@ def generalized():
     print('\n-------- n-body problem --------\n- distnaces\t- kernels\t- similarity\n- nearest\t- neighbor\t- clustering\t- cluster svm'.title())
 
 def linear():
-    print('\n-------- linear algebraic computations --------\nlinear algebraic computations\n- linear algebra\t- linear regression\t- pca'.title())
+    print('\n-------- linear algebraic computations --------\n- linear algebra\t- linear regression\t- pca'.title())
 
 def graph():
     print('\n-------- graph computations --------\n- graph search\t- betweenness\t- centrality\n- commute distance\t- shortest path\tmin spanning tree'.title())
@@ -75,17 +75,20 @@ def main():
         if x == 1:
             descriptive()
         elif x == 11:
+            print('\ndescriptive analytic focuses on basic and linear computations: '.upper())
             basic()
             linear()
         elif x == 2:
             diagnostic()
         elif x == 21:
+            print("\ndiagnostic analytic focuses on  'generalized n-body problem,' linear and graph computations: ".upper())
             generalized()
             linear()
             graph()
         elif x == 3:
             predictive()
         elif x == 31:
+            print("\nprediptive analytic focuses on 'generalized n-body problem,' linear, graph,\nintegration, and alignment computations: ".upper())
             generalized()
             linear()
             graph()
@@ -94,6 +97,7 @@ def main():
         elif x == 4:
             prescriptive()
         elif x == 41:
+            print("\nprescriptive analytic focuses on 'generalized n-body problem,' graph, optimization,\nintegration, and alignment computations: ".upper())
             generalized()
             graph()
             optimization()
