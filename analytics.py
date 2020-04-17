@@ -29,17 +29,19 @@ p 23 1.1
 
 """
 
+print("\ntypes of analytics\n".title())
+print('\n[0] Quit [1] descriptive\t[2] diagnostic\t[3] predictive\t[4] prescriptive'.title())
 def descriptive():
-    print('\nDescriptive Analytic...is based on REPORTS & ALERTS.\n\nWhat happened?')
+    print("\nDescriptive Analytic...is based on REPORTS & ALERTS.\n\nDescriptive Analytics deals with 'What happened?'")
    
 def diagnostic():
-    print('\nDiagnostic Analytic...is based on QUERIES & DATA MINING.\n\nWhy did it happen?')
+    print("\nDiagnostic Analytic...is based on QUERIES & DATA MINING.\n\nDiagnostic Analytics deals with 'Why did it happen?'")
 
 def predictive():
-    print('\nPredictive Analytic...is based on FORECAST & SIMULATIONS.\n\nWhat is likely to happen?')
+    print("\nPredictive Analytic...is based on FORECAST & SIMULATIONS.\n\nPredictive Analytics deals with 'What is likely to happen?'")
 
 def prescriptive():
-    print('\nPrescriptive Analytic...is based on PLANNING & OPTIMIZATION.\n\nWhat can we do to make it happen?')
+    print("\nPrescriptive Analytic...is based on PLANNING & OPTIMIZATION.\n\nPrescriptive Analytics deals with nWhat can we do to make it happen?'")
 
 def basic():
     print('\n- mean\t- median\t- variance\n- coun\t- top-n\t- distinct')
