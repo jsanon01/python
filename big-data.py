@@ -10,10 +10,15 @@ def big_data():
 def characteristics():
     print('\nbig data characteristics are: the 5vs.\nvolume | velocity | variety | veracity | variety | value'.title())
 
+def examples():
+    print('\nvarious applications used by big data.'.title())
+    print('\nweb\tfinance\thealthcare\tindustry\tenvironment\niot\tretail\ttransportation')
+
 
 def main():
     big_data()
     characteristics()
+    examples()
 
 main()
 print()
