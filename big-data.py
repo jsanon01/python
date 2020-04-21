@@ -40,6 +40,7 @@ def transportation():
 def environment():
     print('\nhere are some environment monitoring applications frm big data:\n- weather monitoring\t- air pollution monitoring\t- noise pollution monitoring\n- forest fire detection\t- river floods detection\t- water quality monitoring'.title())
 
+
 def main():
     big_data()
     characteristics()
@@ -62,6 +63,8 @@ def main():
             retail()
         elif x == 8:
             transportation()
+        elif x == 9:
+            pic()
         else:
             print('\ninvalid number...'.title())
         x = int(input('\nEnter a number: '))
