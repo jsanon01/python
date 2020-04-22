@@ -2,7 +2,7 @@
 
 
 """
-
+from PIL import Image
 
 def big_data():
     print('\nbig data deals with collection, storage, processing and analysis of\nmassive-scale data.\n\nbig data has the potential to power next generation of smart applications.'.title())
@@ -40,6 +40,7 @@ def transportation():
 def environment():
     print('\nhere are some environment monitoring applications frm big data:\n- weather monitoring\t- air pollution monitoring\t- noise pollution monitoring\n- forest fire detection\t- river floods detection\t- water quality monitoring'.title())
 
+original = Image.open('big_data.png')
 
 def main():
     big_data()
@@ -64,7 +65,7 @@ def main():
         elif x == 8:
             transportation()
         elif x == 9:
-            pic()
+            original.show()
         else:
             print('\ninvalid number...'.title())
         x = int(input('\nEnter a number: '))
