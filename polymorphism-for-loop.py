@@ -1,8 +1,15 @@
 """
+I want to create a class named Argentina
+I want to create 4 functions inside the class named Argentina
+- capital - language -currency - independence - labor_day
 
+I want to create a class named Jamaica
+I want to create 4 functions inside the class named Argentina
+- capital - language -currency - independence - labor_day
 
+I want to instantiate bot Argentina and Jamaica
+I want to print out classes and functions using for-loop
 """
-
 
 class Argentina:
     def capital(self):
@@ -37,6 +44,7 @@ class Jamaica:
         print('\njamaican labor day is celebrated may 1st.'.title())
 
 messi = Argentina()
+
 reggae_boys = Jamaica()
 
 for country in (messi, reggae_boys):
