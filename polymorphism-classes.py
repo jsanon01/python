@@ -1,5 +1,14 @@
 """
+I want to define a class named Fed
+I want to define methods named prespectivement
+- fed - state - county - city - town
 
+I want to define a class named Fed
+I want to define methods named prespectivement
+- fed - state - county - city - town
+
+I want to instantiate fed and haiti
+I want to use for-loop to print out both classes
 
 """
 
