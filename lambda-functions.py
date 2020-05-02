@@ -1,4 +1,8 @@
+"""
+lambda function to print out 'the double of 5'"
+lambda function to print out 'the triple f 9'"
 
+"""
 double = lambda x: x * 2
 
 print("\nlambda function is used to print out 'the double of 5'".title())
