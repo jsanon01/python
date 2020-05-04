@@ -1,5 +1,8 @@
 """
+I want to define 4 functions respectively:
+- r() - o() - s()  - e()
 
+I want to define main function including a while loop
 
 """
 
@@ -14,14 +17,16 @@ def o():
     print("\nO stands for 'OWNERSHIP'\n\nO means remains accountable to our clients' core values. ")
 
 def s():
-    print("\nS stands for 'Superior Service'\n\nS means exhibits an attitude in which all request are considered reasonable. ")
+    print("\nS stands for 'Superior Service'\n\nS means exhibits an attitude in which all requests are considered reasonable. ")
 
 
 def e():
     print("\nE stands for 'EXCELLENCE'\n\nE means meets or exceeds the expectations by achieving optional outcomes. ")
 
 def main():
+
     x = int(input('\nEnter a number from 0 - 4: '))
+
     while x:
         if x == 1:
             r()
@@ -33,7 +38,9 @@ def main():
             e()
         else:
             print('\nInvalid number...')
+
         x = int(input('\nEnter a number from 0 - 4: '))
+
     print('\nYou have exited the script.')
 
 main()
