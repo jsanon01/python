@@ -18,16 +18,16 @@ print('\nOOP is not just supported by Python, but it is a part of its very core.
 print('\n[1] OOP [2] Class [3] Instances\t [4] Methods')
 
 def oop():
-    print("object oriented programming 'is all about code reuse'")
+    print("\nobject oriented programming 'is all about code reuse'".title())
 
 def klass():
-    print('1) we define class:\t "class A:" ')
+    print('\n1) We define class:\t "class A:" ')
 #    print()
 def instans():
-    print('2) we create instances')
+    print('\n2) We create instances --> x = A():'.title())
 
 def methods():
-    print('instances use methods defining in the class')
+    print('\ninstances use methods defining in the class'.title())
 
 def main():
     x = int(input('\nEnter a number from 0 - 4: '))
@@ -46,6 +46,6 @@ def main():
 
 main()
 
-print('You have exited the script...')
+print('\nYou have exited the script...')
 
 print()
