@@ -7,15 +7,15 @@ print("\n'the save the cat beat sheet' is a roadmap which means\na series or roa
 print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] ')
 
 def step_1():
-    print('step 1 --> opening image')
+    print('step 1 --> opening image'.title())
 def step_2():
-    print('step 2 --> setup ')
+    print('step 2 --> setup '.title())
 def step_3():
-    print('step 3 --> theme stated')
+    print('step 3 --> theme stated'.title())
 def step_4():
-    print('step 4 --> catalyst')
+    print('step 4 --> catalyst'.title())
 def step_5():
-    print('step 5 --> debate')
+    print('step 5 --> debate'.title())
 def step_6():
     print('step 6 --> break into two')
 def step_7():
