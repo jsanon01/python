@@ -3,8 +3,10 @@ the 3 act structure: setup conflict reolution
 
 """
 print("\n'the save the cat beat sheet' is a roadmap which means\na series of road markers preventing aimlessly roaming.".title())
-print('\nhere are the 15-step process'.title())
-print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] ')
+print('\n-------- here are the 15-step process -------'.title())
+print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]')
+print('\n-------- here is the 3-act structure wrapping the 15-step --------')
+print('\n[31] setup [32] conflict [33] resolution'.title())
 
 def step_1():
     print('step 1 --> opening image'.title())
@@ -37,8 +39,17 @@ def step_14():
 def step_15():
     print('step 15 --> final image')
 
+def setup():
+    print('setup --> ')
+
+def conflict():
+    print('conflict --> ')
+
+def resolution():
+    print('resolution --> ')
+
 def main():
-    x = int(input('\nEnter a number from 0 - 16: '))
+    x = int(input('\nEnter a number from 0 - 15 || 31 -33: '))
     while x:
         if x == 1:
             step_1()
@@ -70,9 +81,15 @@ def main():
             step_14()
         elif x == 15:
             step_15()
+        elif x == 31:
+            setup()
+        elif x == 32:
+            conflict()
+        elif x == 33:
+            resolution()
         else:
             print('\nInvalid number...')
-        x = int(input('\nEnter a number from 0 - 16: '))
+        x = int(input('\nEnter a number from 0 - 15 || 31 -33: '))
 
     print('\nYou have exited the script...')
 
