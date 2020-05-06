@@ -2,8 +2,8 @@
 the 3 act structure: setup conflict reolution
 
 """
-print("\n'the save the cat beat sheet' is a roadmap which means\na series or road markers preventing aimlessly roaming.".title())
-
+print("\n'the save the cat beat sheet' is a roadmap which means\na series of road markers preventing aimlessly roaming.".title())
+print('\nhere are the 15-step process'.title())
 print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] ')
 
 def step_1():
