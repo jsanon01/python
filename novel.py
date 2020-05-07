@@ -10,43 +10,57 @@ print('\n[31] setup [32] conflict [33] resolution'.title())
 
 def step_1():
     print('step 1 --> opening image'.title())
+
 def step_2():
     print('step 2 --> setup '.title())
+
 def step_3():
     print('step 3 --> theme stated'.title())
+
 def step_4():
     print('step 4 --> catalyst'.title())
+
 def step_5():
     print('step 5 --> debate'.title())
+
 def step_6():
     print('step 6 --> break into two')
+
 def step_7():
     print('step 7 --> b story')
+
 def step_8():
     print('step 8 --> fun & games')
+
 def step_9():
     print('step 9 --> midpoint')
+
 def step_10():
     print('step 10 --> bad guy close-in')
 def step_11():
     print('step 11 --> all is lost')
+
 def step_12():
     print('step 12 --> dark night of the soul')
+
 def step_13():
     print('step 13 --> break into three')
+
 def step_14():
     print('step 14 --> finale')
+
 def step_15():
     print('step 15 --> final image')
 
 def setup():
-    print('setup --> ')
+    print('\nsetup --> ')
+
 
 def conflict():
-    print('conflict --> ')
+    print('\nconflict --> ')
 
 def resolution():
-    print('resolution --> ')
+    print('\nresolution --> ')
 
 def main():
     x = int(input('\nEnter a number from 0 - 15 || 31 -33: '))
