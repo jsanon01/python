@@ -5,7 +5,7 @@ the 3 act structure: setup conflict reolution
 print("\n'the save the cat beat sheet' is a roadmap which means\na series of road markers preventing aimlessly roaming.".title())
 print('\n-------- here are the 15-step process -------'.title())
 print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]')
-print('\n-------- here is the 3-act structure wrapping the 15-step --------')
+print('\n-------- here is the 3-act structure wrapping the 15-step --------'.title())
 print('\n[31] setup [32] conflict [33] resolution'.title())
 
 def step_1():
@@ -24,43 +24,43 @@ def step_5():
     print('step 5 --> debate'.title())
 
 def step_6():
-    print('step 6 --> break into two')
+    print('step 6 --> break into two'.title())
 
 def step_7():
-    print('step 7 --> b story')
+    print('step 7 --> b story'.title())
 
 def step_8():
-    print('step 8 --> fun & games')
+    print('step 8 --> fun & games'.title())
 
 def step_9():
-    print('step 9 --> midpoint')
+    print('step 9 --> midpoint'.title())
 
 def step_10():
-    print('step 10 --> bad guy close-in')
+    print('step 10 --> bad guy close-in'.title())
+
 def step_11():
-    print('step 11 --> all is lost')
+    print('step 11 --> all is lost'.title())
 
 def step_12():
-    print('step 12 --> dark night of the soul')
+    print('step 12 --> dark night of the soul'.title())
 
 def step_13():
-    print('step 13 --> break into three')
+    print('step 13 --> break into three'.title())
 
 def step_14():
-    print('step 14 --> finale')
+    print('step 14 --> finale'.title())
 
 def step_15():
-    print('step 15 --> final image')
+    print('step 15 --> final image'.title())
 
 def setup():
-    print('\nsetup --> ')
-
+    print('\nsetup --> '.title())
 
 def conflict():
-    print('\nconflict --> ')
+    print('\nconflict --> '.title())
 
 def resolution():
-    print('\nresolution --> ')
+    print('\nresolution --> '.title())
 
 def main():
     x = int(input('\nEnter a number from 0 - 15 || 31 -33: '))
