@@ -1,5 +1,7 @@
 """
-the 3 act structure: setup conflict reolution
+I want to create 15 functions (step_1 - step_15)
+I want to create a main function along with a  while statement
+
 
 """
 print("\n'the save the cat beat sheet' is a roadmap which means\na series of road markers preventing aimlessly roaming.".title())
