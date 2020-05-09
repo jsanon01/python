@@ -2,7 +2,7 @@
 I want to create 15 functions (step_1 - step_15)
 I want to create a main function along with a  while statement
 I want to create 3 additional functions: 
-- setup - conflict - resolution
+- act 1 - act 2 - act 3
 I want to print out all functions inside the main function
 
 """
@@ -10,7 +10,8 @@ print("\n'the save the cat beat sheet' is a roadmap which means\na series of roa
 print('\n-------- here are the 15-step process -------'.title())
 print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]')
 print('\n-------- here is the 3-act structure wrapping the 15-step --------'.title())
-print('\n[31] setup [32] conflict [33] resolution'.title())
+print('\n[31] act 1 [32] act 2 [33] act 3'.title())
+#print('\n[31] setup [32] conflict [33] resolution'.title())
 
 def step_1():
     print('step 1 --> opening image'.title())
@@ -58,13 +59,22 @@ def step_15():
     print('step 15 --> final image'.title())
 
 def setup():
-    print('\nsetup --> '.title())
+    print("\nsetup --> an exploration of the hero's status quo life and all its flaws.\nwhat we learn before the hero's transformation ".title())
 
 def conflict():
     print('\nconflict --> '.title())
 
 def resolution():
     print('\nresolution --> '.title())
+
+def act_1():
+    print("\nact 1:\n\n - opening image - setup - 'theme stated' - catalyst - debate".title())
+
+def act_2():
+    print("\nact 2:\n\n-'break into 2'\t - 'b story' - 'funs & games' - midpoint\n- 'bad guys close in' - 'all is lost' - 'dark night of the soul'".title())
+
+def act_3():
+    print("")
 
 def main():
     x = int(input('\nEnter a number from 0 - 15 || 31 -33: '))
@@ -100,11 +110,11 @@ def main():
         elif x == 15:
             step_15()
         elif x == 31:
-            setup()
+            act_1()
         elif x == 32:
-            conflict()
+            act_2()
         elif x == 33:
-            resolution()
+            act_3()
         else:
             print('\nInvalid number...')
         x = int(input('\nEnter a number from 0 - 15 || 31 -33: '))
