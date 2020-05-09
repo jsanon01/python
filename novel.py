@@ -7,11 +7,16 @@ I want to print out all functions inside the main function
 
 """
 print("\n'the save the cat beat sheet' is a roadmap which means\na series of road markers preventing aimlessly roaming.".title())
-print('\n-------- here are the 15-step process -------'.title())
-print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]')
 print('\n-------- here is the 3-act structure wrapping the 15-step --------'.title())
 print('\n[31] act 1 [32] act 2 [33] act 3'.title())
+
 #print('\n[31] setup [32] conflict [33] resolution'.title())
+
+print('\n-------- here are the 15-step process -------'.title())
+print('\n[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]')
+
+
+
 
 def step_1():
     print('step 1 --> opening image'.title())
@@ -74,7 +79,7 @@ def act_2():
     print("\nact 2:\n\n-'break into 2'\t - 'b story' - 'funs & games' - midpoint\n- 'bad guys close in' - 'all is lost' - 'dark night of the soul'".title())
 
 def act_3():
-    print("")
+    print("\nact 3:\n\n- 'break into 3' - finale - 'final image'".title())
 
 def main():
     x = int(input('\nEnter a number from 0 - 15 || 31 -33: '))
