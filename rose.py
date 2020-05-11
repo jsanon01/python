@@ -1,12 +1,20 @@
+"""
+I want to define a function named def 
+I want to create a switch statement inside the function
+I want to define a while loop and if statement inside
+I want to print out the function
+"""
+print('\n---------- menu ----------'.upper())
+print('\n[1] r [2] o [3] s [4] e'.title())
 
 def rose(roz):
     switcher= {
-	1: "r --> stands for 'respect'",
-	2: "o --> stands for 'ownership'",
-	3: "s --> 'superior service'",
-	4: "e --> 'excellence'"
+	1: "\nr --> stands for 'respect'".title(),
+	2: "\no --> stands for 'ownership'".title(),
+	3: "\ns --> 'superior service'".title(),
+	4: "\ne --> 'excellence'".title()
 	}
-    return switcher.get(roz, 'Invalid number')
+    return switcher.get(roz, '\nInvalid number')
 
 kiki = ''
 
@@ -16,6 +24,7 @@ while kiki != 'q':
     if kiki.isdigit():
         result = rose(int(kiki))
     print(result)
+    print()
     kiki = input("Enter 1 -4 or 'q' to quit:  ")
 
 print()
