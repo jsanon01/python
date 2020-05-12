@@ -5,7 +5,7 @@ I want to define a while loop and if statement inside
 I want to print out the function
 """
 print('\n---------- menu ----------'.upper())
-print('\n[1] r [2] o [3] s [4] e'.title())
+print('\n[1] r [2] o [3] s [4] e'.upper())
 
 def rose(roz):
     switcher= {
