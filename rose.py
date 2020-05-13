@@ -11,8 +11,8 @@ def rose(roz):
     switcher= {
 	1: "\nr --> stands for 'respect'".title(),
 	2: "\no --> stands for 'ownership'".title(),
-	3: "\ns --> 'superior service'".title(),
-	4: "\ne --> 'excellence'".title()
+	3: "\ns --> 'superior service'\n\nto exhibit an attitude in which all requests are considered reasonable".title(),
+	4: "\ne --> 'excellence'\n\nto exceed the expectations by achieving optional outcones".title()
 	}
     return switcher.get(roz, '\nInvalid number')
 
@@ -25,7 +25,7 @@ while kiki != 'q':
         result = rose(int(kiki))
     print(result)
     print()
-    kiki = input("Enter 1 -4 or 'q' to quit:  ")
+    kiki = input("Enter 1 - 4 or 'q' to quit:  ")
 
 print()
     
