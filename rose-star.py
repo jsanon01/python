@@ -9,7 +9,7 @@ I want to define main function including a while loop
 print('\n---------- The STAR Philosophy ----------')
 
 
-print('\n[1] S [2] T [3] A [4] R ')
+print('\n[11] S [12] T [13] A [14] R ')
 
 def situation():
     print('situation')
@@ -53,6 +53,14 @@ def main():
             s()
         elif x == 4:
             e()
+        elif x == 11:
+            situation()
+        elif x == 12:
+            task()
+        elif x == 13:
+            action()
+        elif x == 14:
+            result()
         else:
             print('\nInvalid number...')
 
