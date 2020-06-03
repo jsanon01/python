@@ -22,6 +22,6 @@ def do_it():
     print('Hello ' + str(name.get()).title())
 
 
-work = Button(root, text='Work', width=23, height=5, bg='lightblue', command=do_it).place(x=160, y=140)
+work = Button(root, text='Click Me', width=23, height=5, bg='lightblue', command=do_it).place(x=160, y=140)
 
 root.mainloop()
