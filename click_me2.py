@@ -23,7 +23,8 @@ entry_box = Entry(root, textvariable=name, width=25, bg='lightgreen').place(x=17
 entry_box2 = Entry(root, textvariable=phone, width=25, bg='lightgreen').place(x=170, y=150)
 
 def do_it():
-    print('Hello ' + str(name.get()).title())
+    print('Hello '+ str(name.get()).title())
+    print('Your phone number is: ' + str(phone.get()))
 
 
 work = Button(root, text='Click Me', width=23, height=5, bg='lightblue', command=do_it).place(x=160, y=200)
