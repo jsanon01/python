@@ -1,9 +1,14 @@
 import requests
+import datetime
+
+now = datetime.datetime.now()
 
 api_address = 'https://api.openweathermap.org/data/2.5/weather?appid=426767ea170627f14a06a5979bea2de4&q='
 
-city = input('city name: '.title())
+city = input('\ncity name: '.title())
+
 unit = '&units=imperial'
+
 url = api_address + city + unit
 
 json_data = requests.get(url).json()
@@ -25,6 +30,14 @@ formatted_data6 = json_data6['main']['temp_min']
 formatted_data7 = json_data7['main']['temp_max']
 formatted_data8 = json_data8['main']['feels_like']
 
+print("\n----- Here are the current weather conditions for: {} -----".format(city).title())
 
-print('Weather: {}\nDescription: {}\nWind speed: {}\nHumidity: {}'.format(formatted_data, formatted_data2, formatted_data3, formatted_data4).title())
-print('temp: {}\nTemp min: {}\ntemp max: {}\nfeel like: {}'.format(formatted_data5, formatted_data6, formatted_data7, formatted_data8).title())
+print()
+print('current and date time: '.title())
+print(now.strftime('%Y-%m-%d %H:%m:%S'))
+print()
+print('Weather:\t {}\nDescription:\t {}\nWind speed:\t {}\nHumidity:\t {}'.format(formatted_data, formatted_data2, formatted_data3, formatted_data4).title())
+
+print('temp:\t\t {}\nTemp min:\t {}\ntemp max:\t {}\nfeel like:\t {}'.format(formatted_data5, formatted_data6, formatted_data7, formatted_data8).title())
+
+print()
