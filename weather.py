@@ -1,6 +1,7 @@
 import requests
 import datetime
 
+
 now = datetime.datetime.now()
 
 api_address = 'https://api.openweathermap.org/data/2.5/weather?appid=426767ea170627f14a06a5979bea2de4&q='
@@ -34,7 +35,8 @@ print("\n----- Here are the current weather conditions for: {} -----".format(cit
 
 print()
 print('current and date time: '.title())
-print(now.strftime('%Y-%m-%d %H:%m:%S'))
+print(now.strftime('%Y-%m-%d %H:%M:%S'))
+
 print()
 print('Weather:\t {}\nDescription:\t {}\nWind speed:\t {}\nHumidity:\t {}'.format(formatted_data, formatted_data2, formatted_data3, formatted_data4).title())
 
