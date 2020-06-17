@@ -6,7 +6,7 @@ now = datetime.datetime.now()
 
 api_address = 'https://api.openweathermap.org/data/2.5/weather?appid=426767ea170627f14a06a5979bea2de4&q='
 
-city = input('\ncity name: '.title())
+city = input('\nplease enter the city name: '.title())
 
 unit = '&units=imperial'
 
