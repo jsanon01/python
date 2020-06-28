@@ -13,7 +13,7 @@ def visibles():
     print("\nLes 4 soeurs visibles:\n- money\n- politics\n- sex\n- religion ".title())
 
 def puces():
-    print("\nLes 4 puces indomptables ou a l'avant-garde (indomitable & annoying fleas):\n- morpions (crabs live on human hair)\n- tics (tics live on animals)\n- punaises (bedbugs live on human clothing)\n- carapattes (carapattes live on animals)".title())
+    print("\nLes 4 puces indomptables ou ennuyant (indomitable & annoying fleas):\n- morpions (crabs live on human hair)\n- tics (tics live on animals)\n- punaises (bedbugs live on human clothing)\n- carapattes (carapattes live on animals)".title())
 
 invisibles()
 visibles()
