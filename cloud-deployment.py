@@ -30,7 +30,7 @@ def app():
     print("\napplication deployment is a 'cloud conceptual perspective of the services':\n'how are they used?'\t'why should i use one of them?' ")
 
 def lambda_functions():
-    print('\nlambda is not only a serverless computing service but also scales automatically up to 1,000 requests.')
+    print('\nlambda is not only a serverless computing service but also scales automatically up to 1,000 free requests per month.')
 
 def api():
     print('\napi gateway is not only a standard way to accomplish automatic tasks\nbut also is API Management in the cloud.')
