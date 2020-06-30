@@ -16,6 +16,9 @@ def puces():
     print("\nLes 4 puces indomptables ou ennuyant (indomitable & annoying fleas):\n- morpions (crabs live on human hair)\n- tics (tics live on animals)\n- punaises (bedbugs live on human clothing)\n- carapattes (carapattes live on animals)".title())
 
 invisibles()
+
 visibles()
+
 puces()
+
 print()
