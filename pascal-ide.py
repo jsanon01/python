@@ -10,10 +10,10 @@ def pascal():
 def ouvrage():
     print("\nhere are some of his literary work: ".title())
     print("- 'know yourself better to love yourself' means 'mieux se connaitre pour mieux s'aimer".title())
-    print("- 'working methodically is to succeed' means 'travailler avec methode c'est reussir''")
-    print("- 'building your personality' means 'construire sa personnalite'")
-    print("- 'knowing your heart' means 'connaitre ses blessures'")
-    print("- 'body to heart' means 'le corps a coeur'")
+    print("- 'working methodically is to succeed' means 'travailler avec methode c'est reussir''".title())
+    print("- 'building your personality' means 'construire sa personnalite'".title())
+    print("- 'knowing your heart' means 'connaitre ses blessures'".title())
+    print("- 'body to heart' means 'le corps a coeur'".title())
 
 def humain():
     print("'understand to love' means 'comprendre pour aimer'\n'live to love' means 'aimer pour vivre'\n'dancing is human' means 'danser est humain'".title())
