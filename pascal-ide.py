@@ -19,7 +19,7 @@ def humain():
     print("'understand to love' means 'comprendre pour aimer'\n'live to love' means 'aimer pour vivre'\n'dancing is human' means 'danser est humain'".title())
 
 def divin():
-    print("'love to understand' means 'aimer pour comprendre'\n'love to live' means 'aimer pour vivre'\n'singing is divine' means 'chanter est divin'")
+    print("'love to understand' means 'aimer pour comprendre'\n'love to live' means 'aimer pour vivre'\n'singing is divine' means 'chanter est divin'".title())
 
 
 def main():
