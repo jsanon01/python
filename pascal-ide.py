@@ -2,7 +2,7 @@
 
 
 """
-print('\npascal ide is a: '.title())
+print('\n who is pascal ide? he is a: '.title())
 
 def pascal():
     print("\n- docror of philosophy\n- doctor of medicine\n- master of theology.".title())
