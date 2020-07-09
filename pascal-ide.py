@@ -9,7 +9,8 @@ print('[0] Quit  [1] Who?  [2] Work [3] Human [4] Divine')
 print('\none of the greatest philosophers'.title())
 
 def pascal():
-    print("\n- docror of philosophy\n- doctor of medicine\n- master of theology.".title())
+    print('\nHis name is: Pascal Ide')
+    print("- docror of philosophy\n- doctor of medicine\n- master of theology.".title())
 
 def ouvrage():
     print("\nhere are some of his literary work: ".title())
