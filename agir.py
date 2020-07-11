@@ -18,9 +18,9 @@ I want to define a main function named agir including a while statement
 """
 import webbrowser
 
-print('\n<<Beaucoup personnes ont des reves, ceux qui reussissent ont des objectifs.>>\n\t\t\t\t\t\t\t\tThami Kabbaj')
+print('\n"Beaucoup personnes ont des reves, ceux qui reussissent ont des objectifs."\n\t\t\t\t\t\t\t\tThami Kabbaj')
 
-print('\n[0] Quit [1] A\t[2] G\t[3] I\t[4] R\t[5] Web Reference\n[6] Metro')
+print('\n[0] Quit [1] A\t[2] G\t[3] I\t[4] R\t[5] Web Reference [6] Metro')
 
 def a():
     print("\n'A' pour Apprendre")
