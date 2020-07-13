@@ -4,12 +4,12 @@
 """
 
 def quantite():
-    print("\nla quantite d'aliments integree chaque jour doit etre\n- suffisante pour couvrir les besoins de l'organisme en energie et a la croissance\n- suffisante a l'entretien des tissus et des organes .")
+    print("\nla quantite d'aliments integree chaque jour doit etre:\n- suffisante pour couvrir les besoins de l'organisme en energie et a la croissance\n- suffisante a l'entretien des tissus et des organes .")
     print("une alimentation correcte produit: les fonctions suivantes:\n- croissance, reproduction, travail, activite mentale, stabilite du poids a l'age adulte")
 
 def qualite():
-    print("\nle regime alimentaire doit etre complet et varie dans sa composition, et procurer a l'organisme toutes les substances necessaires:")
-    print("- hydrate de carbone (glucides)\n- graisses (lipides)\n- proteines (protides)\n- vitamines\n- mineraux\n- eau\nfibres generales")
+    print("\nle regime alimentaire doit etre complet et varie dans sa composition,\n et procurer a l'organisme toutes les substances necessaires:")
+    print("- hydrate de carbone (glucides)\n- graisses (lipides)\n- proteines (protides)\n- vitamines\n- mineraux\n- eau\n- fibres generales")
 
 def equilibre():
     print("\nles quantites des diverses substances doivent garder entre elles un equilibre correct")
