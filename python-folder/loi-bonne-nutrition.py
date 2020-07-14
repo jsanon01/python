@@ -4,8 +4,8 @@
 """
 
 def quantite():
-    print("\nla quantite d'aliments integree chaque jour doit etre:\n- suffisante pour couvrir les besoins de l'organisme en energie et a la croissance\n- suffisante a l'entretien des tissus et des organes .")
-    print("une alimentation correcte produit: les fonctions suivantes:\n- croissance, reproduction, travail, activite mentale, stabilite du poids a l'age adulte")
+    print("\nla quantite d'aliments integree chaque jour doit etre:\n- suffisante pour couvrir les besoins de l'organisme en energie et a la croissance\n- suffisante a l'entretien des tissus et des organes .".title())
+    print("- une alimentation correcte produit les fonctions suivantes:\n- croissance, reproduction, travail, activite mentale, stabilite du poids a l'age adulte".title())
 
 def qualite():
     print("\nle regime alimentaire doit etre complet et varie dans sa composition,\n et procurer a l'organisme toutes les substances necessaires:")
