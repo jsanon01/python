@@ -1,5 +1,8 @@
 """
-
+I want to define a function named quantite()
+I want to define a function named qualite()
+I want to define a function named equilibre()
+I want to define a function named ajustement()
 
 """
 
