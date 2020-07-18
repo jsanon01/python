@@ -3,7 +3,6 @@ I want to define a function named quantite()
 I want to define a function named qualite()
 I want to define a function named equilibre()
 I want to define a function named ajustement()
-
 """
 
 def quantite():
@@ -20,7 +19,6 @@ def equilibre():
 
 def ajustement():
     print("\nle choix, la preparation et la quantite des aliments doivent s'ajuster:\n- au poids\n- a l'age\n- a l'etat physiologique\n- et au type d'activite.".title())
-
 
 quantite()
 
