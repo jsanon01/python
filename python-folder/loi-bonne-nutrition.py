@@ -14,7 +14,7 @@ def qualite():
     print("- hydrate de carbone (glucides)\n- graisses (lipides)\n- proteines (protides)\n- vitamines\n- mineraux\n- eau\n- fibres generales".title())
 
 def equilibre():
-    print("\nles quantites des diverses substances doivent garder entre elles un equilibre correct".title())
+    print("\nles quantites des diverses substances doivent garder entre elles\n un equilibre correct:".title())
     print("- hydrates de carbone => 55% a 75% du total des calories.\n- graisses => a ne pas exceder 30% des calories (origine vegetale)\n- proteines => 10% a 15% du total des calories".title())
 
 def ajustement():
