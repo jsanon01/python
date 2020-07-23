@@ -1,6 +1,6 @@
 """
 I want to define a function named sleep_study()
-
+I want to define a function named symptoms()
 """
 print()
 
