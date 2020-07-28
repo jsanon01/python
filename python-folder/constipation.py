@@ -11,6 +11,7 @@ def causes():
     print("les principales causes de la constipation sont:\n- fonctionelles\n- dietetiques\n- manque d'xercise".title())
 
 def traitement():
+    print('-------------------- Traitement --------------------')
     print("- dartier\n- ble\n- sene\n- tamarin".title())
 
 constipation()
