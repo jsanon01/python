@@ -1,4 +1,7 @@
 """
+I want to define a function named constipation()
+I want to define a function named causes()
+I want to define a function named traitement()
 p94 la sante par les plantes
 
 """
