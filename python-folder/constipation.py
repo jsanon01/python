@@ -2,9 +2,8 @@
 I want to define a function named constipation()
 I want to define a function named causes()
 I want to define a function named traitement()
-p94 la sante par les plantes
-
 """
+
 print()
 
 def constipation():
@@ -18,8 +17,13 @@ def traitement():
     print("- dartier (voie orale)\n- ble (voie orale)\n- sene (voie orale)\n- tamarin (voie orale)".title())
 
 constipation()
+
 print()
+
 causes()
+
 print()
+
 traitement()
+
 print()
