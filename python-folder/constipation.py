@@ -14,7 +14,7 @@ def causes():
 
 def traitement():
     print('-------------------- Traitement --------------------')
-    print("- dartier (voie orale)\n- ble (voie orale)\n- sene (voie orale)\n- tamarin (voie orale)".title())
+    print("- dartier\t (voie orale)\n- ble\t\t (voie orale)\n- sene\t\t (voie orale)\n- tamarin\t (voie orale)".title())
 
 constipation()
 
