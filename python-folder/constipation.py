@@ -7,7 +7,8 @@ I want to define a function named traitement()
 print()
 
 def constipation():
-    print("rarete de l'evacuation des selles, due a une retention\nanormalement prolongee des matieres fecales dans l'intestin...".title())
+    print("\nC'est quoi la constipation?".title())
+    print("\nC'est la rarete de l'evacuation des selles, due a une retention\nanormalement prolongee des matieres fecales dans l'intestin...".title())
 
 def causes():
     print("les principales causes de la constipation sont:\n- fonctionelles\n- dietetiques\n- manque d'xercise".title())
