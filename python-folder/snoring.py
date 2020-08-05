@@ -1,6 +1,7 @@
 """
 I want to define a function named sleep_study()
 I want to define a function named symptoms()
+https://www.health.harvard.edu/diseases-and-conditions/snoring-solutions
 """
 print()
 
@@ -14,10 +15,18 @@ def symptoms():
     print("---------- here are the most common snoring symptoms ---------- ".title())
     print("- witnessed breathing pauses during sleep\n- difficulty concentrating\n- morning headaches\n- store throat upon awakening\n- restless sleep\n- gasping or chocking at night\n- high blood pressure\n- chest pain at night\n- loud snoring disrupting your partner's sleep".title())
 
+def factors():
+    print("- alcohol\n- body weight\n- medications\n- nasal congestion\n- sleepposition\n- smoking")
+
+
 sleep_study()
 
 print()
 
 symptoms()
+
+print()
+
+factors()
 
 print()
