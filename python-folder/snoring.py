@@ -17,7 +17,8 @@ def symptoms():
     print("- witnessed breathing pauses during sleep\n- difficulty concentrating\n- morning headaches\n- store throat upon awakening\n- restless sleep\n- gasping or chocking at night\n- high blood pressure\n- chest pain at night\n- loud snoring disrupting your partner's sleep".title())
 
 def factors():
-    print("- alcohol\n- body weight\n- medications\n- nasal congestion\n- sleepposition\n- smoking".title())
+    print("---------- here are the most common snoring causes or factors ---------- ".title())
+    print("- alcohol\n- body weight\n- medications\n- nasal congestion\n- sleep position\n- smoking".title())
 
 
 sleep_study()
