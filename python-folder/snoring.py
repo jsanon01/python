@@ -20,7 +20,9 @@ def factors():
     print("---------- here are the most common snoring causes or factors ---------- ".title())
     print("- alcohol\n- body weight\n- medications\n- nasal congestion\n- sleep position\n- smoking".title())
 
-
+def surgery():
+    print("---------- here are the most common snoring causes or factors ---------- ".title())
+    
 sleep_study()
 
 print()
@@ -32,3 +34,5 @@ print()
 factors()
 
 print()
+
+surgery()
