@@ -22,7 +22,7 @@ def factors():
 
 def surgery():
     print("---------- here are the most common snoring surgeries ---------- ".title())
-    print('- laup\n- palatal implants\n- somnoplasty'.title())    
+    print('- laup = laser-assisted uvulo-palatopharyngoplasty\n- palatal implants = to widen upper jaws(in orthodontics)\n- somnoplasty = to treat chronic nasal obstruction related to snoring'.title())    
 sleep_study()
 
 print()
