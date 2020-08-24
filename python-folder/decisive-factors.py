@@ -4,10 +4,10 @@
 """
 
 def alimentation():
-    print('alimentation')
+    print('alimentation'.title())
 
 def air():
-    print('air')
+    print('air'.title())
 
 def eau():
     print('eau')
