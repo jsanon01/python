@@ -10,10 +10,10 @@ def air():
     print('air'.title())
 
 def eau():
-    print('eau')
+    print('eau'.title())
 
 def soleil():
-    print('soleil')
+    print('soleil'.title())
 
 def exercise():
     print('exercise physique')
