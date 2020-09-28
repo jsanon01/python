@@ -1,4 +1,7 @@
+"""
+I want to print 8 lines about UNIX Philosophy
 
+"""
 
 print()
 print('---------- UNIX/Linux Philosophy ----------')
