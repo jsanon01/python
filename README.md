@@ -1,5 +1,5 @@
 # python
 
-this is a Python folder
+This is a Python Folder
 # musician-app
 # musician-app
