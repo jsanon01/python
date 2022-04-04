@@ -4,5 +4,6 @@ presidents = ['jfk', 'clinton', 'obama', 'trump']
 
 for president in presidents:
     print(f'{president.title()} was elected US President!')
+
 print('They are all Americans-born!')
 
