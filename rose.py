@@ -1,5 +1,5 @@
 """
-I want to define a function named def 
+I want to define a function named def
 I want to create a switch statement inside the function
 I want to define a while loop and if statement inside
 I want to print out the function
