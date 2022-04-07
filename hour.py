@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/
 
 # hour calculation
+
+print("This script greets you 'Good Morning, Afternoon, and Evening, accordingly...'")
 
 hour = int(input('Enter hour [0 -24]: '))
 
