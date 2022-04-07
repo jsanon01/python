@@ -2,7 +2,7 @@
 
 # hour calculation
 
-hour = int(input('Enter hour: '))
+hour = int(input('Enter hour [0 -24]: '))
 
 if hour >= 1 and hour < 12:
     print('Good morning')
