@@ -4,7 +4,9 @@
 
 print('--------------------------------------------------------------------')
 
-print("This script greets you 'Good Morning, Afternoon, and Evening, accordingly...'")
+print("This script greets you 'Good Morning, Afternoon, and Evening', accordingly...")
+
+print()
 
 hour = int(input('Enter hour [0 -24]: '))
 
