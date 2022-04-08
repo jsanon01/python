@@ -2,6 +2,8 @@
 
 # hour calculation
 
+print('--------------------------------------------------------------------')
+
 print("This script greets you 'Good Morning, Afternoon, and Evening, accordingly...'")
 
 hour = int(input('Enter hour [0 -24]: '))
@@ -17,3 +19,5 @@ elif hour >= 18 and hour < 24:
 
 else:
     print('Wrong format | More than 24-hour!')
+
+print()
