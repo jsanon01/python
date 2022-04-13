@@ -8,7 +8,7 @@ print("This script greets you 'Good Morning, Afternoon, and Evening', accordingl
 
 print()
 
-hour = int(input('Enter hour [0 -24]: '))
+hour = int(input('Enter hour in format [0 -24]: '))
 
 if hour >= 1 and hour < 12:
     print()
