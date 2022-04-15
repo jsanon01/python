@@ -1,6 +1,6 @@
 #!/usr/bin/
 
-# hour calculation
+# This script is about hour calculation
 
 print('--------------------------------------------------------------------')
 
