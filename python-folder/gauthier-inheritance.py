@@ -10,15 +10,15 @@ class Gauthier:
     def printname(self):
        print(self.firstname, self.lastname)
 
-x = Gauthier('Ben', 'Gauthier')
-x.printname()
+gauthier = Gauthier('Ben', 'Gauthier')
+gauthier.printname()
 
 y = Gauthier('Franckel', 'Gauthier')
 y.printname()
 
 z = Gauthier('Ducarte', 'Gauthier')
 z.printname()
-        
+
 class Cousin(Gauthier):
     pass
 
