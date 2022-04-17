@@ -1,5 +1,5 @@
 # Script is about Inheritance
-# 1 class + 2 functions (names | print)
+# Script prints out 1 class + 2 functions (names | print)
 # calling class + printname
 
 class Gauthier:
