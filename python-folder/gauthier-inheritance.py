@@ -10,8 +10,8 @@ class Gauthier:
     def printname(self):
        print(self.firstname, self.lastname)
 
-gauthier = Gauthier('Ben', 'Gauthier')
-gauthier.printname()
+ben = Gauthier('Ben', 'Gauthier')
+ben.printname()
 
 y = Gauthier('Franckel', 'Gauthier')
 y.printname()
