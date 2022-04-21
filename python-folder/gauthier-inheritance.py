@@ -13,8 +13,8 @@ class Gauthier:
 ben = Gauthier('Ben', 'Gauthier')
 ben.printname()
 
-y = Gauthier('Franckel', 'Gauthier')
-y.printname()
+franckel = Gauthier('Franckel', 'Gauthier')
+franckel.printname()
 
 z = Gauthier('Ducarte', 'Gauthier')
 z.printname()
