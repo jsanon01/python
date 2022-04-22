@@ -16,13 +16,14 @@ ben.printname()
 franckel = Gauthier('Franckel', 'Gauthier')
 franckel.printname()
 
-z = Gauthier('Ducarte', 'Gauthier')
-z.printname()
+ducarte = Gauthier('Ducarte', 'Gauthier')
+ducarte.printname()
 
 class Cousin(Gauthier):
     pass
 
 print('---Cousins and Siblings---')
+
 a = Cousin('Famille', 'Auguste')
 a.printname()
 
