@@ -22,7 +22,7 @@ ducarte.printname()
 class Cousin(Gauthier):
     pass
 
-print('---Cousins and Siblings---')
+print('\n---------- Cousins and Siblings ----------')
 
 a = Cousin('Famille', 'Auguste')
 a.printname()
