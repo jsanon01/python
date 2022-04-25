@@ -27,8 +27,8 @@ print('\n---------- Cousins and Siblings ----------')
 auguste = Cousin('Famille', 'Auguste')
 auguste.printname()
 
-b = Cousin('Famille', 'Josma')
-b.printname()
+josma = Cousin('Famille', 'Josma')
+josma.printname()
 
 c  = Cousin('Famille', 'Joseph')
 c.printname()
