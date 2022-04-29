@@ -29,6 +29,6 @@ auguste.printname()
 print()
 josma = Cousin('Famille', 'Josma')
 josma.printname()
-
+print()
 c  = Cousin('Famille', 'Joseph')
 c.printname()
