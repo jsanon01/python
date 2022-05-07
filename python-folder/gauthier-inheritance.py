@@ -24,6 +24,7 @@ class Cousin(Gauthier):
 
 print('\n---------- Cousins and Siblings ----------')
 
+print()
 auguste = Cousin('Famille', 'Auguste')
 auguste.printname()
 
