@@ -4,7 +4,7 @@
 # importing the libraries
 from PIL import Image
 
-# greeting print statemnt
+# print statemnt greeting
 print("\nThis script displays 4 options about an image:\n[open image]\t[display size image]\t[rotate image]\t[resize image]")
 
 # I ask the user what to do: open, size, resize, rotate, or quit
